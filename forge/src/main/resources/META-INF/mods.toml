@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/UtilCubed/tweaked_anvils/issues"
+license = "AGPL-3.0"
+
+[[mods]]
+modId = "tweaked_anvils"
+version = "${version}"
+displayName = "Aba's Tweaked Anvils"
+authors = "UtilCubed"
+description = '''
+Allows customization of the XP cost formulas of the anvil.
+'''
+logoFile = "icon.png"
+
+[[dependencies.tweaked_anvils]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tweaked_anvils]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
