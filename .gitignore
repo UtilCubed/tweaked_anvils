@@ -16,4 +16,5 @@ classes/
 .metadata
 .vscode
 .settings
+.github
 *.launch

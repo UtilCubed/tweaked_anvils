@@ -6,8 +6,7 @@
   "client": [
   ],
   "mixins": [
-    "AnvilMenuMixin",
-    "ItemCombinerMenuAccess"
+    "AnvilMenuMixin"
   ],
   "injectors": {
     "defaultRequire": 1
